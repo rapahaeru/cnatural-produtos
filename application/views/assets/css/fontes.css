@@ -1,0 +1,124 @@
+
+/* Fugue Headline */
+
+@font-face {
+    font-family: 'fugueHeadline';
+    src: url('../fontes/fugue_headline/fugue_headline-webfont.eot');
+    src: url('../fontes/fugue_headline/fugue_headline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/fugue_headline/fugue_headline-webfont.woff') format('woff'),
+         url('../fontes/fugue_headline/fugue_headline-webfont.ttf') format('truetype'),
+         url('../fontes/fugue_headline/fugue_headline-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Fugue Mono */
+
+@font-face {
+    font-family: 'fugueMono';
+    src: url('../fontes/fugue_mono/fugue_mono-webfont.eot');
+    src: url('../fontes/fugue_mono/fugue_mono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/fugue_mono/fugue_mono-webfont.woff') format('woff'),
+         url('../fontes/fugue_mono/fugue_mono-webfont.ttf') format('truetype'),
+         url('../fontes/fugue_mono/fugue_mono-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Fugue Regular */
+
+@font-face {
+    font-family: 'fugueRegular';
+    src: url('../fontes/fugue_regular/fugue_regular-webfont.eot');
+    src: url('../fontes/fugue_regular/fugue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/fugue_regular/fugue_regular-webfont.woff') format('woff'),
+         url('../fontes/fugue_regular/fugue_regular-webfont.ttf') format('truetype'),
+         url('../fontes/fugue_regular/fugue_regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************************************************
+                        MUSEOSANS-300
+************************************************************/
+
+@font-face {
+    font-family: 'Museosans300';
+    src: url('../fontes/museosans_300/museosans-300-webfont.eot');
+    src: url('../fontes/museosans_300/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/museosans_300/museosans-300-webfont.woff') format('woff'),
+         url('../fontes/museosans_300/museosans-300-webfont.ttf') format('truetype'),
+         url('../fontes/museosans_300/museosans-300-webfont.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************************************************
+                        MUSEOSANS-500
+************************************************************/
+
+@font-face {
+    font-family: 'Museosans500';
+    src: url('../fontes/museosans_500/museosans-500-webfont.eot');
+    src: url('../fontes/museosans_500/museosans-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/museosans_500/museosans-500-webfont.woff') format('woff'),
+         url('../fontes/museosans_500/museosans-500-webfont.ttf') format('truetype'),
+         url('../fontes/museosans_500/museosans-500-webfont.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************************************************
+                        MUSEOSANS-700
+************************************************************/
+
+@font-face {
+    font-family: 'Museosans700';
+    src: url('../fontes/museosans_700/museosans-700-webfont.eot');
+    src: url('../fontes/museosans_700/museosans-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/museosans_700/museosans-700-webfont.woff') format('woff'),
+         url('../fontes/museosans_700/museosans-700-webfont.ttf') format('truetype'),
+         url('../fontes/museosans_700/museosans-700-webfont.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/************************************************************
+                        MUSEOSLAB-900 Italic
+************************************************************/
+
+@font-face {
+    font-family: 'MuseoSlab900Italic';
+    src: url('../fontes/museosans_900_italic/museosans-900-italic-webfont.eot');
+    src: url('../fontes/museosans_900_italic/museosans-900-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/museosans_900_italic/museosans-900-italic-webfont.woff') format('woff'),
+         url('../fontes/museosans_900_italic/museosans-900-italic-webfont.ttf') format('truetype'),
+         url('../fontes/museosans_900_italic/museosans-900-italic-webfont.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************************************************
+                        MUSEOSLAB-900
+************************************************************/
+
+@font-face {
+    font-family: 'MuseoSlabs900';
+    src: url('../fontes/museoslab_900/museoslab_900.eot');
+    src: url('../fontes/museoslab_900/museoslab_900.eot?#iefix') format('embedded-opentype'),
+         url('../fontes/museoslab_900/museoslab_900.woff') format('woff'),
+         url('../fontes/museoslab_900/museoslab_900.ttf') format('truetype'),
+         url('../fontes/museoslab_900/museoslab_900.svg#denseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

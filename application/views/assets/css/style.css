@@ -1,0 +1,32 @@
+
+
+.area {clear: both; position: relative; width: 100%; margin: auto; }
+.content {margin: 0 auto; /*width: 872px ;*/ /*background-color: #666;*/}
+header div.area {background: url('../imagens/header.jpg') no-repeat; width: 100%; height: 400px;}
+
+header .header-content {margin: 50px 0 0 0; float: left; }
+header .header-content h1 {color: #FFF; background: #09310A; text-transform: uppercase; font-size: 60px; padding: 10px 200px 10px 10px; font-family: 'fugueRegular';}
+
+section .content-header, section .content-form {margin-top: 50px;}
+
+section .content-header h2, section .content-form h3  {font-family: 'MuseoSlabs900'; font-size: 18px; color: #000; text-transform: uppercase;}
+section .content-header p, section .content-form p {font-family: 'Museosans300';}
+
+
+
+footer div.area {height: 400px; background: #666; margin-top: 50px;}
+
+@media (min-width: 900px) { 
+	/*.area {width: 960px;}*/
+	.content {width: 960px;}	
+	
+}
+
+@media (max-width: 899px) { 
+}
+@media (max-width: 620px) { 
+}
+
+@media (max-width: 480px) { 
+
+}
