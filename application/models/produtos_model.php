@@ -18,7 +18,7 @@ class Produtos_model extends CI_Model {
 
 		if($q->num_rows() > 0){
 
-			return $q->result_object();
+			return $q->result_array();
 		}else{
 			return FALSE;
 		}

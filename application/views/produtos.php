@@ -37,26 +37,21 @@
 						<th>Produto</th>
 						<th width="15%">Preço/Kg</th>
 					</tr>
-					<tr>
-						<td>xxxx</td>
-						<td>xxxx</td>
-						<td>R$ 00,00</td>
-					</tr>
-					<tr>
-						<td>xxxx</td>
-						<td>xxxx</td>
-						<td>R$ 00,00</td>
-					</tr>
-					<tr>
-						<td>xxxx</td>
-						<td>xxxx</td>
-						<td>R$ 00,00</td>
-					</tr>
-					<tr>
-						<td>xxxx</td>
-						<td>xxxx</td>
-						<td>R$ 00,00</td>
-					</tr>
+					<?php for ($i=0; $i < sizeof($products) ; $i++) : ?>
+						<tr>
+							<td>
+								<select class="form-control">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</td>
+							<td><?php echo $products[$i]['nome'];?></td>
+							<td>R$ <?php echo $products[$i]['custo'];?></td>
+						</tr>
+					<?php endfor; ?>
+						
 				</table>
 			</div>
 		</div>	

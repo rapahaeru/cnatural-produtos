@@ -2,22 +2,6 @@
 
 class Produtos extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
-
 	public function __construct()
        {
 			parent::__construct();
@@ -29,18 +13,30 @@ class Produtos extends CI_Controller {
 
 	public function index()
 	{
-		//echo "entrei";
-		//exit();
 
 		$products = $this->Produtos->getAllproducts();
+
 		if ($products)
-			$data['products'] = $products;
+			$data['products'] = $this->formatProductsReturn($products);
 		else
 			$data['products'] = false;
 
 		$this->load->view('produtos',$data);
 	}
+
+	function formatProductsReturn($products)
+	{
+		if (!$products)
+			return false;
+
+		for ($i=0; $i < sizeof($products); $i++) { 
+			$products[$i]['custo'] = str_replace('.', ',', $products[$i]['custo']); 
+		}
+
+		return $products;
+	}
+
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+/* End of file produtos.php */
+/* Location: ./application/controllers/produtos.php */
