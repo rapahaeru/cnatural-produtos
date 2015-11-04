@@ -6,7 +6,7 @@ class Session{
 	
 	function __construct() {
 		$this->CI = get_instance();
-		$this->white_list = array('dashboard','users');
+		$this->white_list = array('dashboard','users'); // lista de URIs que nao precisa estar logado
 	}
 	
 	function check_session() {

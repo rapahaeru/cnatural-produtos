@@ -41,6 +41,7 @@
 $route['default_controller'] = "dashboard";
 
 $route['users/:num'] = "users";
+$route['products/:num'] = "products";
 
 $route['404_override'] = 'notfound';
 
