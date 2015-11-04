@@ -21,6 +21,8 @@ class Dashboard extends CI_Controller {
 	{
 		
 		$data['view'] = "dashboard";
+		//echo $this->router->fetch_class();
+		//echo $this->router->fetch_method();
 		
 		$this->load->view('template',$data);
 	}
