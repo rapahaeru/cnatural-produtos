@@ -1,5 +1,6 @@
 <div id="container">
 	<h2>Lista de produtos</h2>
+	<a href="<?php echo base_url('products/categories')?>" class="menu-interno">Categorias</a>
 	
 	<?php if(isset($message)){?>
 		<p class="message"><?php echo $message?></p>

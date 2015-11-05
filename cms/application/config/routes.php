@@ -43,8 +43,15 @@ $route['default_controller'] = "dashboard";
 $route['users/:num'] = "users";
 $route['products/:num'] = "products";
 
+$route['products/categories'] = "products/categories";
+$route['products/categorie/create'] = "products/categorie_create";
+$route['products/categorie/save'] = "products/categorie_save";
+$route['products/categorie/delete/:num'] = "products/delete_categorie";
+$route['products/categorie/edit/:num'] = "products/edit_categorie";
+
 $route['404_override'] = 'notfound';
 
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
+
