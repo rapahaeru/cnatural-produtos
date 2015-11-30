@@ -1,39 +1,68 @@
+/* padroes de fonte */
+.area {
+  clear: both;
+  position: relative;
+  width: 100%;
+  margin: auto; }
 
+.content {
+  margin: 0 auto;
+  /*width: 872px ;*/
+  /*background-color: #666;*/ }
 
-.area {clear: both; position: relative; width: 100%; margin: auto; }
-.content {margin: 0 auto; /*width: 872px ;*/ /*background-color: #666;*/}
-header div.area {background: url('../imagens/header.jpg') no-repeat; width: 100%; height: 400px;}
-footer div.area { background: #332C20; }
-section.section-form div.area {background: #F0AD4E; padding: 25px 0;}
+header div.area {
+  background: url("../imagens/header.jpg") no-repeat;
+  width: 100%;
+  height: 400px; }
 
-header .header-content {margin: 50px 0 0 0; float: left; }
-header .header-content h1 {color: #FFF; background: #09310A; text-transform: uppercase; font-size: 60px; padding: 10px; font-family: 'fugueRegular';}
+footer div.area {
+  background: #332C20; }
 
-/*section .content-header, section .content-form {margin-top: 50px;}*/
+section.section-form div.area {
+  background: #F0AD4E;
+  padding: 25px 0; }
 
-section .content-header h2, section .content-form h3, footer h4  {font-family: 'MuseoSlabs900'; font-size: 18px; text-transform: uppercase;}
-section .content-header p, section .content-form p {font-family: 'Museosans300';}
+header .header-content {
+  margin: 50px 0 0 0;
+  float: left; }
 
-.section-form .btn {padding: 10px 30px;}
+header .header-content h1 {
+  color: #FFF;
+  background: #09310A;
+  text-transform: uppercase;
+  font-size: 60px;
+  padding: 10px;
+  font-family: "fugueRegular"; }
 
+section .content-header h2 {
+  font-family: "MuseoSlabs900";
+  font-size: 18px;
+  text-transform: uppercase; }
 
-footer .footer { width: 300px; padding: 30px 0; color: #FFF;}
+section .content-form h3 {
+  font-family: "MuseoSlabs900";
+  font-size: 18px;
+  text-transform: uppercase; }
 
+footer h4 {
+  font-family: "MuseoSlabs900";
+  font-size: 18px;
+  text-transform: uppercase; }
 
+section .content-header p, section .content-form p {
+  font-family: "Museosans300"; }
 
+.section-form .btn {
+  padding: 10px 30px; }
 
+footer .footer {
+  width: 300px;
+  padding: 30px 0;
+  color: #FFF; }
 
-@media (min-width: 900px) { 
-	/*.area {width: 960px;}*/
-	.content {width: 960px;}	
-	
-}
+@media (min-width: 900px) {
+  /*.area {width: 960px;}*/
+  .content {
+    width: 960px; } }
 
-@media (max-width: 899px) { 
-}
-@media (max-width: 620px) { 
-}
-
-@media (max-width: 480px) { 
-
-}
+/*# sourceMappingURL=style.css.map */
