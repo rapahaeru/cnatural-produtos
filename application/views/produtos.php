@@ -41,13 +41,12 @@
 						<tr>
 							<td>
 								<select class="form-control">
-									<option value="0">0</option>
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
+									<?php for ($x=0; $x <= $products[$i]['quantidade'] ; $x++) { ?>
+									<option value="<?php echo $x?>"><?php echo $x?></option>	
+									<?php }?>
 								</select>
 							</td>
-							<td><?php echo $products[$i]['nome'];?></td>
+							<td><?php echo (($products[$i]['quantidade'] == 0) ? '<strong class="text-danger">(esgotado)</strong>   ' : '')?><?php echo $products[$i]['nome'];?></td>
 							<td>R$ <?php echo $products[$i]['custo'];?></td>
 						</tr>
 					<?php endfor; ?>
