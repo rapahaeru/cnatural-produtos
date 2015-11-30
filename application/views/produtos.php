@@ -22,8 +22,8 @@
 	<section>
 		<div class="area">
 			<div class="content content-header">
-				<h2> <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Lista dos produtos disponíveis para encomenda</h2>
-				<p>Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec Lorem ipsum dollor avec </p>
+				<h2> <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Quais produtos você deseja encomendar?</h2>
+				<p>Basta selecionar a quantidade de cada item. </p>
 			</div>
 		</div>	
 	</section>
@@ -59,8 +59,8 @@
 	<section class="section-form">
 		<div class="area">
 			<div class="content content-form">
-				<h3> <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Preencha os campos abaixo para que possamos entrar em contato !</h3>
-				<p> Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor  </p>
+				<h3> <span class="glyphicon glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Preencha os campos abaixo para que possamos entrar em contato.</h3>
+				<p>Enviaremos um email com os dados de sua entrega e o link do PagSeguro para que o pagamento seja realizado</p>
 
 				<form class="form-horizontal">
 				  <div class="form-group">
@@ -80,7 +80,14 @@
 				    <div class="col-sm-10">
 				      <textarea class="form-control" name="descricao" id="input-descricao" placeholder="Coloque aqui suas observações, dúvidas ou exigências ..." rows="3"></textarea>
 				    </div>
-				  </div>				  
+				  </div>
+				  <div class="form-group">
+				    <label for="input-address" class="col-sm-1 control-label">Endereço</label>
+				    <div class="col-sm-10">
+				      <textarea class="form-control" name="address" id="input-address" placeholder="" rows="3"></textarea>
+				      <p>(Se você é morador do condomínio Alphaview, seu frete é grátis. Informe apenas a torre e o apartamento)</p>
+				    </div>
+				  </div>
 				  <div class="form-group">
 				    <div class="col-sm-offset-1 col-sm-10">
 				      <button class="btn btn-success">Manda !</button>
